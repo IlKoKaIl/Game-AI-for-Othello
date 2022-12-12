@@ -22,7 +22,7 @@ $python3 othello gui.py -d board_size -a randy_ai.py
 
 The GUI can take also take two AI programs as command line parameters. When two AIs are specified
 at the command line you can watch them play against each other. To see Randy play against itself, type
-
+where board_size is an int representing board size  
 $python3 othello gui.py -d board_size -a randy_ai.py -b randy_ai.py
 
 For running the minimax algo using command line using flags do 
